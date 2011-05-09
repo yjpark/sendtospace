@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'Text-Selection' target in the 'Text-Selection' project.
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif
