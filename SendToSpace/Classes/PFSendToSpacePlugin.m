@@ -131,6 +131,8 @@ static BOOL pf_send_to_space_in_progress;
 }
 
 - (int)spaceNum {
+    return 9;
+    
     NSDictionary *dockPrefs = [[NSUserDefaults standardUserDefaults]
                                persistentDomainForName:@"com.apple.dock"];
     
